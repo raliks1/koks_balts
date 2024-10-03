@@ -11,3 +11,9 @@ print(x)
 a = 12
 b = 7
 print(a+b)
+
+a = 12
+b = 7
+print(a+b)
+print(b)
+print("b")
