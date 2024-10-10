@@ -1,3 +1,3 @@
-name = input("Kā tevi sauc? ")
-name = name.isspace()
-print(name)
+b = input()
+b2 = b.replace(" ", "...")
+print(b2)

@@ -7,3 +7,9 @@ oktala tkai 16 cipari
 funkcija-jebkura darbiba 
 arguments-kas ir iekavas tas ir argumrnts, bez sita nevar stradat funkcija
 blakusefekti-
+input-funkcija
+print-izdruka terminala vai ekrana
+print(name) izdruka mainiga vertibu
+b = input()
+b2 = b.replace(" ", "...")
+print(b2)
