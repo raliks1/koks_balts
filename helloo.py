@@ -4,9 +4,9 @@ print((7+6*6))
 print("Sveiks, Andris!")
 vards = input("Kā tevi sauc? ")
 
-x = 2 + 3
-x= x+1
-print(x)
+# x = 2 + 3
+# x= x+1
+# print(x)
 
 # a = 12
 # b = 7
@@ -19,6 +19,10 @@ print(x)
 # print("b")
 # sasveicinos
 
+
 vecums = input("cik tev gadu? ")
 print("sveiks, " + vards)
 print("tev ir ", vecums, "gadi")
+
+
+print("sveiks, "+ vards + vecums + " gadi")
