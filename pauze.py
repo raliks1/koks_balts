@@ -1,3 +1,4 @@
-b = input()
-b2 = b.replace(" ", "...")
-print(b2)
+x = float(input("Cik ir x "))
+y = float(input("Cik ir y "))
+print (round(x+y),1)
+
