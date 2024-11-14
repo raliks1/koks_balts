@@ -19,8 +19,8 @@ print(f"Skaitlis noapaļots līdz diviem cipariem aiz komata: {round(number,2)}"
 integer = int(input("Ievadi veselu skaitli: "))
 print(f"Skaitlis kā decimāldaļā: {float(integer)}")
 
-large_number = int(input("Ievadi lielu skaitli: "))
-print("skaitlis ar tukstoš atdalītāju: {large_number:,}".replace(',' ' '))
+#large_number = int(input("Ievadi lielu skaitli: "))
+#print("skaitlis ar tukstoš atdalītāju: {large_number:,}".replace(',' ' '))
 
 print(f"Skaitlis binārajā sistēmā: {bin(integer)[2:]}")
 print(f"Skaitlis oktālajā sistēmā: {oct(integer)[2:]}")
