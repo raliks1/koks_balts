@@ -15,11 +15,15 @@ print("\n") # ieliek tuksu rindinu pirms izdrukas
 #2.Skaitļu piramīda
 
 n = int(input("ievadi rindu skaitu: "))
-
-for i in range(n):
-    for j in range(i+1):
-        print(j+1, end=" ")
-    print()
+rinda = 1
+while rinda <  n:
+    for i in  range(1, rinda):
+        print(i)
+    rinda += 15
+# for i in range(n):
+#     for j in range(i+1):
+#         print(j+1, end=" ")
+#     print()
 
 
 #3. Fibonači virkne
