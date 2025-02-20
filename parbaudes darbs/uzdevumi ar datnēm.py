@@ -16,11 +16,12 @@ print("\n")
 
 # 2. Rindu skaitīšana failā 
 
+line_count = 0
 with open('data.txt', 'r') as file:
-    kontents = file.read()
-    line_count = kontents.count('\n')
-    print("Kopā līnijas ir:", line_count)
-    
+    for line in file:
+        line_count += 1
+print("kopā līnijas:", line_count)
+
 # 3. Vārda sastopamības skaitīšana failā
 
 # file = open("Data.txt", "w") 
