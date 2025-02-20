@@ -14,46 +14,32 @@ print("\n")
 
 # print("Teksts ir ierakstīts failā") 
 
-# 2. Rindu skaitīšana failā 
-
-line_count = 0
-with open('data.txt', 'r') as file:
-    for line in file:
-        line_count += 1
-print("kopā līnijas:", line_count)
+# 2. Rindu skaitīšana failā
+ 
+# with open('data.txt', 'r', encoding = "utf-8") as file:
+#     x = len(file.readlines())
+#     print(x)
 
 # 3. Vārda sastopamības skaitīšana failā
 
-# file = open("Data.txt", "w") 
+vards = input("ievadi vārdu:").upper()
+with open('vardi.txt', 'r', encoding="utf-8") as data:
+    x = data.readlines()
+mekl = x.count(vards + "\n")
+print(f"{vards} parādās {mekl}")
+
+# 4. Datu pievienošana failam 
+# import datetime
+
+# file = open("logs.txt", "+a") 
 
 # vārds = input("Ievadi tekstu: ") 
 # file.write(vārds) 
 # file.write("\n") 
     
-# file.close()
-
-# text = open("Data.txt", "r") 
-# d = dict() 
-# for line in text: 
-# 	line = line.strip() 
-# 	line = line.lower() 
-# 	words = line.split(" ") 	
-# 	for word in words: 
-# 		if word in d: 
-# 			d[word] = d[word] + 1
-# 		else: 
-# 			d[word] = 1
-# for key in list(d.keys()): 
-# 	print(key, ":", d[key]) 
-
-# 4. Datu pievienošana failam 
+# file.close() 
 
 # 5. Apvienot divus failus, pārmaiņus ierakstot rindas
-
-
-
-
-
 
 # 6. Vārdu atkārtošanās skaita noteikšana failā
 
