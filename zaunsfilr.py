@@ -9,11 +9,11 @@ import ctypes
 df = pandas.read_csv("saraksts.csv", sep=';', dtype=str)
 # print(df.to_string)
 
-today = datetime.today().strftime("%d.%m")
+input_data = input("Ievadiet datumu(DD.MM):")
 
 df["Dzimšanas datums"] = df["Dzimšanas datums"].str[:5]
 
-bd_skoleni = df[df["Dzimšanas datums"] == today]
+bd_skoleni = df[df["Dzimšanas datums"] == input_data]
 
 print(bd_skoleni)
 
@@ -25,3 +25,4 @@ else:
     teksts = "Šodien nav nevienam dz.diena!!!!"
 
 ctypes.windll.user32.MessageBoxW(0,teksts.strip(), "svinam", 1)
+
