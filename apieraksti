@@ -13,3 +13,6 @@ print(name) izdruka mainiga vertibu
 b = input()
 b2 = b.replace(" ", "...")
 print(b2)
+ctrl+c-apstadina funkciju
+flack-zenīta artilērija
+utf8 atlauj izmantot latviesu butruts
