@@ -1,0 +1,20 @@
+NEJAUŠU CILVĒKU GRUPU PĒTĪJUMS
+==================================================
+
+Cilvēku dati:
+--------------------------------------------------
+Ilse Granados: 80 gadi
+Cheslav Bilozir: 29 gadi
+Laura Molina: 50 gadi
+Martha Urbina: 62 gadi
+Önal Keseroğlu: 68 gadi
+Deann Evans: 45 gadi
+Luigi Holler: 39 gadi
+Emre Yıldırım: 44 gadi
+Cristian Márquez: 34 gadi
+Patrik Vincent: 42 gadi
+--------------------------------------------------
+
+STATISTIKA:
+Vidējais vecums: 49.30
+Mediānais vecums: 44.5
