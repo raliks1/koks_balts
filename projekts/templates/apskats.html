@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <title>Visi dati</title>
+</head>
+<body>
+    <h1>Visi iesniegtie dati</h1>
+    <table border="1">
+        <tr>
+            <th>Vārds</th>
+            <th>Uzvārds</th>
+            <th>Klase</th>
+            <th>Mīļākais priekšmets</th>
+        </tr>
+        {% for ieraksts in dati %}
+        <tr>
+            <td>{{ ieraksts.vards }}</td>
+            <td>{{ ieraksts.uzvards }}</td>
+            <td>{{ ieraksts.klase }}</td>
+            <td>{{ ieraksts.prieksmets }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <a href="{{ url_for('forma') }}">Atpakaļ uz formu</a>
+</body>
+</html>
